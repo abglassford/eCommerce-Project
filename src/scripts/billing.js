@@ -8,7 +8,7 @@ $(document).on('ready', function() {
     //  test secret: sk_test_C6yqB06zrJzrwQRDNDFVtl8T
 
     buildStatesSelector();
-
+ 
     checkShoppingCart();
 
 
