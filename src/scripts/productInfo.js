@@ -1,6 +1,6 @@
 var tacocat = []
 var promise = Promise.resolve($.ajax({
-  url: 'http://galvanize-student-apis.herokuapp.com/gcommerce/products/',
+  url: 'https://galvanize-student-apis.herokuapp.com/gcommerce/products/',
   method: 'GET'
 })).then(function (data) {
   tacocat = data

@@ -4,7 +4,7 @@ $(function () {
   $('.badge').text(window.location.search.split('=')[1])
   console.log($('#testing').attr('href'));
   var promise = Promise.resolve($.ajax({
-    url:'http://galvanize-student-apis.herokuapp.com/gcommerce/products/',
+    url:'https://galvanize-student-apis.herokuapp.com/gcommerce/products/',
     method: 'GET'
   }))
   .then(function (data) {
