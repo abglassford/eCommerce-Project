@@ -11,7 +11,7 @@ var promise = Promise.resolve($.ajax({
   return tacocat
 })
 
-var imgArr = ["./images/Ping-Pong-HD-2.jpg", "./images/ping-pong-table.jpg", "./images/2699170.jpg"]
+var imgArr = ["./src/images/Ping-Pong-HD-2.jpg", "./src/images/ping-pong-table.jpg", "./src/images/2699170.jpg"]
 var imgs = ['https://s-media-cache-ak0.pinimg.com/236x/f7/de/ed/f7deedb246866ed4b0b2aab9bd3b7676.jpg',
 'http://2.bp.blogspot.com/-u66toyzKzUo/VCStwUNksjI/AAAAAAAABH0/h2WAJYGiasY/s1600/Rainbow%2Blighted%2Bping%2Bpong%2Btable.jpg',
 'http://assets.nydailynews.com/polopoly_fs/1.2155594.1426789136!/img/httpImage/image.jpg_gen/derivatives/landscape_1200/glass-ping-pong-table.jpg',
